@@ -216,6 +216,6 @@ footer {
 }
 /* Custom Background for the Summary Box */
 main .card:first-of-type {
-    background-color: #edf2f7; /* A clean, soft light gray/blue tint */
-    border-left: 5px solid var(--accent-color); /* Adds a sharp accent bar on the left edge */
+    background-color: #f8fafc; /* This sets the soft light tint */
+    border-left: 5px solid var(--accent-color); /* Adds the professional left accent bar */
 }
