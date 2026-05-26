@@ -34,17 +34,19 @@ header {
     padding: 25px 0;
     border-bottom: 4px solid var(--accent-color);
     margin-bottom: 35px;
-}
-
-.header-flex {
+}.header-flex {
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between; 
+    flex-direction: row-reverse;    
 }
 
-.profile-image-container {
-    flex-shrink: 0;
+.header-text {
+    flex-grow: 1;
+    text-align: left;
 }
+
+
 
 .profile-img {
     width: 80px;
