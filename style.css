@@ -29,6 +29,7 @@ body {
 
 /* Header */
 header {
+header {
     background-color: #1e293b;
     color: white;
     padding: 25px 0;
@@ -40,6 +41,21 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.profile-image-container {
+    flex-shrink: 0;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    background-color: #334155;
+}
 }
 
 .profile-image-container {
