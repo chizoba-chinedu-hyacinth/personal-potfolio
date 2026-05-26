@@ -34,6 +34,7 @@ header {
     padding: 25px 0;
     border-bottom: 4px solid var(--accent-color);
     margin-bottom: 35px;
+    position: relative; /* 👈 ADD THIS LINE: Anchors the photo to the header box */
 }
 .header-flex {
     display: flex;
@@ -58,9 +59,11 @@ header {
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     background-color: #334155;
 }
-
 .profile-image-container {
-    flex-shrink: 0;
+    position: absolute;
+    top: 20px;       /* Pushes it neatly away from the very top edge */
+    right: 20px;     /* Pushes it neatly away from the very right edge */
+    z-index: 10;     /* Ensures it sits cleanly on top of any background layers */
 }
 
 .profile-img {
