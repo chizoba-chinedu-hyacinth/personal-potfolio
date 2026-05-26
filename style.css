@@ -103,9 +103,12 @@ header {
     background-color: #334155;
 }
 }
-
 .profile-image-container {
-    flex-shrink: 0;
+    position: absolute;
+    top: 20px;       /* Pushes it neatly away from the very top edge */
+    right: 20px;     /* Pushes it neatly away from the very right edge */
+    z-index: 10;     /* Ensures it sits cleanly on top of any background layers */
+}
 }
 
 .profile-img {
